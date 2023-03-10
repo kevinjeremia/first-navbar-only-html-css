@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Tilt+Warp&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-family: 'Tilt Warp', cursive;
+    color: #151D2A;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.dot{
+    color: #E8795E;
+}
+
+a, button{
+    font-family: 'Inter', sans-serif;
+    font-weight: 1000;
+    color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+.nav__links{
+    transition: all 0.4s ease 0s;
+}
+
+.nav__links:hover {
+    color: #E8795E;
+}
+button {
+    cursor: pointer;
+    padding: 10px 30px;
+    border-width: 1.5px;
+    transition: all 0.4s ease 0s;
+    margin-left: 30px;
+}
+
+button:hover {
+    color: #E8795E;
+    border-color: #E8795E;
+}
